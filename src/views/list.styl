@@ -1,0 +1,109 @@
+.todoList
+    width 100%
+    height 100%
+    box-sizing border-box
+    position relative
+    .tl_top
+      font-size 50px
+      margin-bottom 10px
+    .tl_top_two
+      font-size 25px
+      margin-bottom 30px 
+      color #4c80d8 
+      user-select none
+      cursor pointer
+    .tl_top_three
+      float right 
+      width  100px
+      height 40px
+      border: 1px solid #e8e8e8
+      position relative
+      background-color: #e8e8e8
+      cursor pointer
+      border-radius: 10px
+      div:nth-of-type(1)
+        width: 10px
+        height 10px
+        background-color: #c7bebe
+        border: 1px solid #c7bebe
+        position absolute
+        left 75%
+        top 50%
+        transform: translate(-50%, -50%) perspective(8px) rotateX(-40deg);
+      div:nth-of-type(2)
+        width: 10px
+        height 5px
+        background-color: #c7bebe
+        position absolute
+        left 75%
+        top 55% 
+        transform: translate(-50%, 50%)
+      div:nth-of-type(3)
+        width: 100%
+        height 38px
+        text-align:left
+        padding-left: 10px
+        line-height: 38px
+        letter-spacing: 5px 
+        font-size: 18px
+        position absolute
+        left 0
+        top 0
+        user-select none
+      .radio
+        position absolute
+        left 0
+        top 100%
+        height 200px
+        background-color: white
+        box-shadow: 0 0 5px #c7bebe
+        z-index 2
+        .el-radio
+          height: 40px
+          line-height: 40px
+          padding-left: 20px
+        button
+          width: 51px
+          height 40px
+          border none
+          font-size: 15px
+          color: #409eff
+          outline: none
+          cursor: pointer
+          &:hover
+            color: #67c23a
+    .tl_top_middle
+      height 50px
+      text-align center
+      line-height 50px
+      color black 
+      font-size 25px
+      font-weight 600
+    .tl_top_xian
+      height 25px
+      border-bottom 1px solid #dedede 
+    .el-table td,.el-table th 
+      border-bottom: 1px solid red
+    .el-drawer
+      .add_top
+        height 80px
+        font-size: 25px
+        font-weight: 560
+        line-height 80px
+        padding-left 20px
+        border-bottom: 1px solid #d4d4d4
+      .add_middle_one
+        height: 50px
+        padding: 15px 20px 0
+      .add_middle_two
+        width: 80%
+        margin-left: 20px     
+      .add_middle_three
+        height: 30px
+        color red  
+        padding: 5px 20px 
+      .add_middle_four
+        width 80% 
+        margin: 20px
+        
+  
